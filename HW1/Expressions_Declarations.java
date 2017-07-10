@@ -21,23 +21,22 @@ public class Expressions_Declarations{
 
   }
 }
-
+*/
 public class Expressions_Declarations{
   public static void main(String[] args){
     int x = 3;
-    double y = x / 4;
+    double y = x / 4.0;
     System.out.println(x);
     System.out.println(y);
   }
 }
-
+/*
 public class Expressions_Declarations{
   public static void main(String[] args){
     int x = 1+2*3-4;
     System.out.println(x);
   }
 }
-
 public class Expressions_Declarations{
   public static void main(String[] args){
     int x = 3;
@@ -48,8 +47,8 @@ public class Expressions_Declarations{
     System.out.println(y);
     System.out.println(z);
   }
-}*/
-
+}
+/*
 public class Expressions_Declarations{
   public static void main(String[] args){
     double x = 1.0;
@@ -60,4 +59,4 @@ public class Expressions_Declarations{
     System.out.println(y);
     System.out.println(z);
   }
-}
+}*/
