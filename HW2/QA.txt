@@ -1,0 +1,27 @@
+q1
+
+#1 ?, false, false, true
+#2 false, false, true
+#3 true, true, false
+
+q2
+
+#1
+true
+I am inside if
+I am inside main
+
+#2
+I am inside if
+I am inside main
+
+#3
+y = 4.7
+I am inside main
+
+#4
+I am inside main
+
+#5
+x <= 3
+I am inside main
