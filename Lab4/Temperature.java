@@ -11,21 +11,24 @@ import java.util.Scanner;
 public class Temperature{
   public static void main(String[] args){
 
+    //declare variables
     double temperature, Cel=0, Fah=0, new_temp=0;
     char type;
 
     Scanner user_input = new Scanner(System.in);
 
+    // prompts the user for input regarding temperature and type of temperature
     System.out.println("Welcome to Temple Weather Channel");
     System.out.println("Temperature Conversion Program\n");
 
     System.out.print("\t[Q1] Enter a temperature in degrees (for example 29.6): ");
     temperature = user_input.nextDouble();
     System.out.print("\t[Q2] Enter 'F' (or 'f') for Fahrenheit or 'C' (or 'c') for Celsius: ");
+    // converts string to single char
     type = user_input.next().charAt(0);
 
     System.out.print("\n");
-
+    // checks if temperature is either C or F and converts one to the other
     switch(type){
     case 'c':
     case 'C':
@@ -40,6 +43,7 @@ public class Temperature{
       System.out.println("Program ended");
       break;
     default:
+      // for invalid arguments
       System.out.println("\tUnknown units -");
       System.out.println("\tCannot do calculation -");
       System.out.println("\tPlease next time enter either 'F' for Fahrenheit of 'C' for Celsius.\n");

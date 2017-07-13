@@ -7,13 +7,13 @@ import java.util.Scanner;
 
 public class Paycheck{
   public static void main(String[] args){
-
+          // declaring variaqbles
           double  hourly_salary, weekly_time, net_pay=0,
           over_time=0, net_pay_ot=0, ot_rem=0, ot_time=0;
 
           int employee_num;
           Scanner user_input = new Scanner(System.in);
-
+          //Prompt user for information
           System.out.println("Welcome to \"TEMPLE HUMAN RESORCES\"\n");
 
           System.out.print("\tEnter Employee Number: ");
@@ -24,7 +24,7 @@ public class Paycheck{
           weekly_time = user_input.nextDouble();
 
 
-
+          // if no overtime is worked then the first statement executes if there was overtime execute the elseif
           if(weekly_time >= 0 && weekly_time <= 40){
             net_pay = weekly_time * hourly_salary;
           }

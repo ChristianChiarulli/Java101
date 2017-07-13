@@ -10,10 +10,11 @@ import java.util.Scanner;
 
 public class Revenue{
     public static void main(String[] args){
+      // declare variables
       double price, cost, discount=0, discount_amount=0;
       int quantity;
       Scanner user_input = new Scanner(System.in);
-
+      // get user input for price and quantity
       System.out.println("Welcome to \"Temple\" store\n");
 
       System.out.print("Enter item price: ");
@@ -26,7 +27,7 @@ public class Revenue{
       System.out.println("\tThe item price: $" + price);
       System.out.println("\tThe order: " + quantity + " item(s)");
       System.out.println("\tThe cost: $" + cost);
-
+      // calculate discount based on price nad quantity
       if(quantity >= 1 && quantity <= 49){
         discount = 0;
       }
@@ -39,6 +40,7 @@ public class Revenue{
       else if(quantity >= 150){ // Even though the project said greater than I think this is a better implementation.
         discount = 25;
       }
+      // display final answers
       System.out.println("\tThe discount: " + discount + "%");
 
       discount_amount = discount/100 * cost;
