@@ -49,8 +49,5 @@ public class Temperature{
       System.out.println("\tPlease next time enter either 'F' for Fahrenheit of 'C' for Celsius.\n");
       System.out.println("Program ended");
     }
-
-
-
   }
 }

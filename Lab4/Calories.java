@@ -2,7 +2,7 @@
 * 10 Jul, 11:21
 * sec 002
 * Calorie project
-*/ 
+*/
 
 
 import java.util.Scanner;
