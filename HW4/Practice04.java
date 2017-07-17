@@ -42,7 +42,7 @@ public class Practice04 {
   }
 }
 
-
+/*
 //Solution
 public class Practice04 {
   public static void main(String[] args) {
@@ -63,4 +63,4 @@ public class Practice04 {
     }while(c < 5);
     System.out.println("The maximum number is: " + max);
   }
-}
+}*/
