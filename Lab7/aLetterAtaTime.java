@@ -14,6 +14,6 @@ public class aLetterAtaTime{
         a++;
       }
     }
-    System.out.println("\nYour message contains the letter 'a' " + a + " times. Isn't that interesting?");
+    System.out.println("\nYour message contains the letter 'a' " + a  + " times. Isn't that interesting?");
   }
 }
